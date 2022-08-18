@@ -1,18 +1,17 @@
 import './App.css';
-import freecodecampLogo from './imagenes/fcc_primary_large.png'
 import Boton from './componentes/Boton'
 import Pantalla from './componentes/Pantalla'
 import BotonClear from './componentes/BotonClear'
 import { useState } from 'react'
 import { evaluate } from 'mathjs'
-
+import LogoFreecodecamp from './componentes/LogoFreecodecamp'
 
 function App() {
 
     const [input,setInput] = useState('');
 
     const agregarInput = val =>{
-        setInput(input + val);
+       setInput(input + val);
     }
 
     const calcularResultado = () =>{
@@ -26,12 +25,7 @@ function App() {
 
   return (
     <div className="App">
-        <div className='freecodecamp-logo-contenedor'>
-            <img 
-            src={freecodecampLogo}
-            className='freecodecamp-logo'
-            alt='logo de freecodecamp' />
-        </div> 
+        <LogoFreecodecamp />
         <div className='contenedor-calculadora'>
             
             <Pantalla input={input} />
