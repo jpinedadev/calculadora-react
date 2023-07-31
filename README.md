@@ -73,7 +73,7 @@ Estas son las instrucciones para poder instalar y configurar el proyecto en tu o
    ```sh
    git clone https://github.com/jpinedadev/calculadora-react.git
    ```
-3.  Abre la terminal y navega hasta la carpeta coinbase
+3.  Abre la terminal y navega hasta la carpeta calculadora-react
     ```sh
     cd calculadora-react
     ```
