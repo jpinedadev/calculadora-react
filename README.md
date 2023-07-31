@@ -75,7 +75,7 @@ Estas son las instrucciones para poder instalar y configurar el proyecto en tu o
    ```
 3.  Abre la terminal y navega hasta la carpeta coinbase
     ```sh
-    cd coinbase
+    cd calculadora-react
     ```
 4. Instala los paquetes NPM
    ```sh
